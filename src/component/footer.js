@@ -30,10 +30,10 @@ export default function Footer() {
           class="w3-margin w3-margin-top h-8"
           src="https://public-acl-shop.s3.ap-south-1.amazonaws.com/LogoBlack.png"
         />
-        <h4>About us</h4>
-        <h4>Contact</h4>
-        <h4>Apps</h4>
-        <h4>Terms of Service</h4>
+        <h4 class="w3-margin">About us</h4>
+        <h4 class="w3-margin">Contact</h4>
+        <h4 class="w3-margin">Apps</h4>
+        <h4 class="w3-margin">Terms of Service</h4>
       </div>
     </div>
   );
