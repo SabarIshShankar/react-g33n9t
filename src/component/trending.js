@@ -21,6 +21,9 @@ export default function Banner() {
             src="https://static.fibre2fashion.com/articleresources/images/22/2120/womens-clothing-todays-fashions.jpg"
             className="w3-margin-right"
           />
+          <a href="" class="w3-right w3-margin-bottom">
+            view more
+          </a>
         </div>
       </div>
     </div>

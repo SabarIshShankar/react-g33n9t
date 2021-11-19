@@ -5,6 +5,8 @@ import ColoredLine from './component/hr';
 import Banner from './component/banner';
 import Carousel from './component/carousel1';
 import Trending from './component/trending';
+import Footer from './component/footer';
+import Card from './component/card';
 
 export default function App() {
   return (
@@ -12,8 +14,10 @@ export default function App() {
       <Navbar />
       <ColoredLine color="#FF367F" />
       <Banner />
-      <Carousel />
       <Trending />
+      <ColoredLine color="#FF367F" />
+      <Card />
+      <Footer />
     </div>
   );
 }

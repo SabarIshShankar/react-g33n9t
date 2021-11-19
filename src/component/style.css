@@ -3,8 +3,8 @@
   font-family: Red Hat Display;
   font-weight: bold;
 }
-.pink{
-  color: #ff367f
+.pink {
+  color: #ff367f;
 }
 .w3-card {
   font-family: Red Hat Display;
@@ -46,7 +46,7 @@ bold,
 }
 
 .btn-grad1 {
-  background: white;
+  background: rgb(58, 58, 58);
 }
 
 .btn-grad1 {
@@ -56,8 +56,8 @@ bold,
   text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
-  color: #ff0000;
-  border-radius: 100px;
+  color: #ffffff;
+  border-radius: 3px;
   display: block;
   border: none;
 }
