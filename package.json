@@ -3,13 +3,20 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "autoprefixer": "^10.0.2",
-    "flat-carousel": "^0.0.1",
-    "postcss": "^8.0.9",
+    "@babel/core": "7.16.0",
+    "@emotion/react": "11.6.0",
+    "@emotion/styled": "11.6.0",
+    "@mui/icons-material": "^5.1.1",
+    "@mui/material": "^5.1.1",
+    "@trendyol-js/react-carousel": "2.0.0",
+    "@types/react": "17.0.35",
+    "autoprefixer": "10.4.0",
+    "flat-carousel": "0.0.1",
+    "postcss": "8.3.11",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "tailwind": "4.0.0",
-    "tailwindcss": "^2.2.19"
+    "tailwindcss": "2.2.19"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -3,6 +3,15 @@
   font-family: Red Hat Display;
   font-weight: bold;
 }
+.pink{
+  color: #ff367f
+}
+.w3-card {
+  font-family: Red Hat Display;
+}
+.w3-cardbg {
+  background: 1a1a1a;
+}
 h4,
 bold,
 .body {
