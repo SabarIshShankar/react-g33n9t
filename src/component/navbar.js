@@ -48,8 +48,7 @@ export default function Navbar({ fixed }) {
                   className="px-3 py-2 flex items-center text-s uppercase leading-snug text-black hover:opacity-75"
                   href="#pablo"
                 >
-                  <i className="fab fa-facebook-square text-lg leading-lg text-black opacity-75"></i>
-                  <span className="ml-2">Share</span>
+                  <span className="ml-2">Start</span>
                 </a>
               </li>
               <li className="nav-item">
@@ -57,8 +56,7 @@ export default function Navbar({ fixed }) {
                   className="px-3 py-2 flex items-center text-s uppercase  leading-snug text-black hover:opacity-75"
                   href="#pablo"
                 >
-                  <i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i>
-                  <span className="ml-2">Tweet</span>
+                  <span className="ml-2">Brands</span>
                 </a>
               </li>
               <li className="nav-item">
@@ -66,8 +64,31 @@ export default function Navbar({ fixed }) {
                   className="px-3 py-2 flex items-center text-s uppercase  leading-snug text-black hover:opacity-75"
                   href="#pablo"
                 >
-                  <i className="fab fa-pinterest text-lg leading-lg text-white opacity-75"></i>
-                  <span className="ml-2">Pin</span>
+                  <span className="ml-2">Community</span>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="px-3 py-2 flex items-center text-s uppercase  leading-snug text-black hover:opacity-75"
+                  href="#pablo"
+                >
+                  <span className="ml-2">About Us</span>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="px-3 py-2 flex items-center text-s uppercase  leading-snug text-black hover:opacity-75"
+                  href="#pablo"
+                >
+                  <span className="ml-2">Blog</span>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="px-3 py-2 flex items-center text-s uppercase  leading-snug text-black hover:opacity-75"
+                  href="#pablo"
+                >
+                  <span className="ml-2 btn-grad">LOG IN/SIGN UP</span>
                 </a>
               </li>
             </ul>

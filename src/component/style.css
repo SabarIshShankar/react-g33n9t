@@ -13,7 +13,6 @@ bold,
 }
 
 .btn-grad {
-  margin-top: 20px;
   padding: 10px 20px;
   text-align: center;
   text-transform: uppercase;
@@ -24,8 +23,8 @@ bold,
   display: block;
   border: none;
 }
-.padding-top{
-  margin-top: 30px
+.padding-top {
+  margin-top: 30px;
 }
 .w3-margin-top1 {
   margin-top: 50px;
@@ -65,4 +64,19 @@ bold,
   display: inline;
   list-style-type: none;
   padding-right: 20px;
+}
+
+.carousel {
+  padding: 10px 10px 0;
+  border-radius: 4px;
+  width: 375px;
+  margin: auto;
+}
+.carousel__main {
+  border-radius: 4px;
+  height: 110px;
+}
+
+.demo-item {
+  height: 110px;
 }
