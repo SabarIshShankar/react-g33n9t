@@ -1,11 +1,11 @@
 import React from 'react';
 import 'tailwindcss/tailwind.css';
-
+import './style.css';
 export default function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
-    <>
-      <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-white mb-3">
+    <div className="body">
+      <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-white mb-3 body">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <a
@@ -45,7 +45,7 @@ export default function Navbar({ fixed }) {
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               <li className="nav-item">
                 <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
+                  className="px-3 py-2 flex items-center text-xs uppercase leading-snug text-black hover:opacity-75"
                   href="#pablo"
                 >
                   <i className="fab fa-facebook-square text-lg leading-lg text-black opacity-75"></i>
@@ -54,7 +54,7 @@ export default function Navbar({ fixed }) {
               </li>
               <li className="nav-item">
                 <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
+                  className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-black hover:opacity-75"
                   href="#pablo"
                 >
                   <i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i>
@@ -63,7 +63,7 @@ export default function Navbar({ fixed }) {
               </li>
               <li className="nav-item">
                 <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
+                  className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-black hover:opacity-75"
                   href="#pablo"
                 >
                   <i className="fab fa-pinterest text-lg leading-lg text-white opacity-75"></i>
@@ -74,6 +74,6 @@ export default function Navbar({ fixed }) {
           </div>
         </div>
       </nav>
-    </>
+    </div>
   );
 }

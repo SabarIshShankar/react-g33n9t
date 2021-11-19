@@ -4,7 +4,7 @@ const ColoredLine = ({ color }) => (
     style={{
       color: color,
       backgroundColor: color,
-      height: 6,
+      height: 16,
     }}
   />
 );
